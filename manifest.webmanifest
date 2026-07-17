@@ -1,0 +1,27 @@
+{
+  "name": "Rockbox — Reproductor local",
+  "short_name": "Rockbox",
+  "description": "Reproductor de música local (FLAC/MP3/etc.), sin conexión a Internet.",
+  "id": "./rockbox.html",
+  "start_url": "./rockbox.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#08090a",
+  "theme_color": "#03070b",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'> <defs> <linearGradient id='body' x1='0' y1='0' x2='0' y2='1'> <stop offset='0' stop-color='%233a3c40'/> <stop offset='0.12' stop-color='%23212327'/> <stop offset='1' stop-color='%230a0b0c'/> </linearGradient> </defs> <rect width='100' height='100' rx='18' fill='url(%23body)'/> <rect x='6' y='6' width='88' height='88' rx='14' fill='none' stroke='%234a4d52' stroke-width='1.5'/> <rect x='18' y='16' width='64' height='46' rx='3' fill='%2303070b'/> <rect x='18' y='16' width='64' height='46' rx='3' fill='none' stroke='%233fd0ff' stroke-opacity='0.35' stroke-width='1.5'/> <path d='M40 27 L40 51 L60 39 Z' fill='%233fd0ff'/> <circle cx='50' cy='80' r='9' fill='none' stroke='%235c6066' stroke-width='2.5'/> <circle cx='50' cy='80' r='2.2' fill='%238a8f96'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'> <rect width='100' height='100' fill='%2303070b'/> <rect x='14' y='14' width='72' height='72' rx='10' fill='none' stroke='%234a4d52' stroke-width='1.5'/> <rect x='26' y='24' width='48' height='34' rx='2' fill='%2303070b'/> <rect x='26' y='24' width='48' height='34' rx='2' fill='none' stroke='%233fd0ff' stroke-opacity='0.35' stroke-width='1.5'/> <path d='M42 32 L42 50 L57 41 Z' fill='%233fd0ff'/> <circle cx='50' cy='76' r='7' fill='none' stroke='%235c6066' stroke-width='2.5'/> <circle cx='50' cy='76' r='1.8' fill='%238a8f96'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
